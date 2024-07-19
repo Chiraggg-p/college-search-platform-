@@ -1,0 +1,108 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.search-section {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#college-search {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#search-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+#search-btn:active {
+    background-color: #004494;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.website-logo {
+    width: 150px;  /* Adjust this width as needed */
+    margin-bottom: 10px;
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-media li a:hover {
+    color: #007bff;
+}
+
+.img-fluid {
+    max-width: 100%;  /* Ensure the image is responsive and fits within its container */
+    height: auto;
+    border-radius: 50%; /* Make the image circular */
+}
